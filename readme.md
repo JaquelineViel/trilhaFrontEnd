@@ -30,4 +30,10 @@ Este sistema permite que a equipe de desenvolvimento possa escrever, apagar e al
 * SVN;
 * CVS.
 ---
+Fontes de pesquisa:
+
+* [Atlassian Bitbucket](https://www.atlassian.com/br/git/tutorials/what-is-version-control)
+
+* [GeekHunter](https://blog.geekhunter.com.br/git-svn-e-cvs-comparacao-dos-principais-vcs/)
+
 
