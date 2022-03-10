@@ -32,8 +32,8 @@ Este sistema permite que a equipe de desenvolvimento possa escrever, apagar e al
 ---
 Fontes de pesquisa:
 
-* [Atlassian Bitbucket](https://www.atlassian.com/br/git/tutorials/what-is-version-control)
+* O que é controle de versões: [Atlassian Bitbucket](https://www.atlassian.com/br/git/tutorials/what-is-version-control)
 
-* [GeekHunter](https://blog.geekhunter.com.br/git-svn-e-cvs-comparacao-dos-principais-vcs/)
+* Git, SVN e CVS — comparação dos principais VCS: [GeekHunter](https://blog.geekhunter.com.br/git-svn-e-cvs-comparacao-dos-principais-vcs/)
 
 
