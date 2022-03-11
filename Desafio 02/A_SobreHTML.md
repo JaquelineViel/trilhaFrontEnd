@@ -113,12 +113,7 @@ VISUALIZAÇÃO
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/img17.0_IycETCQE2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647019051559">
 VISUALIZAÇÃO
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/img17.1_4BWBUi8vWG8X.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647019051720">
-
-18. Tag **< li></ li>**
-<p><p>
-<img src="">
-
-
+  
 
 ---
 #### **II.** Explique com suas palavras a importância do HTML Semântico;
