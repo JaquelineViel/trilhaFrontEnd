@@ -68,22 +68,30 @@ Visualização:
 #### **IV.** Explique o que é encadeamento e agrupamento de seletores.
 <br/>
 
-***Resposta:***
+***Resposta:*** Os encadeados exigem uma especificidade, onde em casos de alterações de algum estilo em um elemento ou palavra em específico, você deve especificar como será feito.
+
+Agrupamento de seletores é o conjunto vários elementos onde você deseja atribuir as mesmas características a eles.
+
 
 ---
 #### **V.** O que é Box-Model e dê 3 exemplos de aplicação.
 <br/>
 
-***Resposta:***
+***Resposta:*** Todo elemento inserido em uma página web, geralmente é acompanhado de uma caixa retangular.
+Uma dessas caixas (box), é a Box-Model, sendo ela um modelo padrão.
+
+Alguns exemplos de aplicação são:  área de conteúdo (content area); área de preenchimento (padding area); área de borda (border area) e área de margem (margin area) 
+
 
 ---
 #### **VI.** Explique a diferença entre Margin e Padding.
 <br/>
 
-***Resposta:***
+***Resposta:*** O margin faz a separação do elemento de elementos vizinhos, faz um espaçamento fora do conteúdo.
+O padding realiza o preenchimento dentro dos limites do conteúdo.
 
 ---
 #### **VII.** Explique o que é Position e dê um exemplo de cada.
 <br/>
 
-***Resposta:***
+***Resposta:*** Position é um recurso que ordena e determina o lugar/posição de elementos em uma determinada página web, blog, rede social etc.
