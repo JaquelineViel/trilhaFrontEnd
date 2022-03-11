@@ -73,6 +73,7 @@ VISUALIZAÇÃO
 
 10. Tag **< u></ u> , < i></ i>**
 <p>Formata textos em sublinhado e itálico</p>
+
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/img10_47ZVSvQBbD.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646974140480">
 VISUALIZAÇÃO
 
@@ -80,10 +81,43 @@ VISUALIZAÇÃO
 
 
 11. Tag **< br></ br>**
-Define uma quebra de linha
+<p>Define uma quebra de linha</p>
+
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/img11.0_ySTRLr_qhXvw.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646974627161">
 VISUALIZAÇÃO
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/img11.1_3NAVHWcyp.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646974627371">
+
+12. Tag **< div></ div>**
+<p>Define um bloco inteiro de conteúdo para organizar o conteúdo na página Web.<p>
+
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/img12.0_Vw9j1CO6Bnv2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647017773837">
+
+13. Tag **< font></ font>**
+<p>Define a fonte<p>
+
+14. Tag **< img></ img>**
+<p>Utilizada para inserir imagens na página web<p>
+
+15. Tag **< table></ table>**
+<p>Utilizada para criar tabelas<p>
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/img15.0_5nCJ8jZaHJ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647018695745">
+VISUALIZAÇÃO
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/img15.1_1kIb-I-FA-.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647018695569">
+
+16. Tag **< ul></ ul>**
+<p>Utilizada para criar listas não ordenadas (exemplo na tag 17)<p>
+
+
+17. Tag **< li></ li>**
+<p>Define cada item da lista<p>
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/img17.0_IycETCQE2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647019051559">
+VISUALIZAÇÃO
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/img17.1_4BWBUi8vWG8X.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647019051720">
+
+18. Tag **< li></ li>**
+<p><p>
+<img src="">
+
 
 
 ---

@@ -95,3 +95,11 @@ O padding realiza o preenchimento dentro dos limites do conteúdo.
 <br/>
 
 ***Resposta:*** Position é um recurso que ordena e determina o lugar/posição de elementos em uma determinada página web, blog, rede social etc.
+
+1.  Área de conteúdo (content area) - Aréa destinada ao conteúdo da página Web.
+
+2. Área de preenchimento (padding area) - Extenção do conteúdo, quando a formatação de cores ou imagem, ele se estende para a área de preenchimento.
+
+3.  Área de borda (border area) - Se estende da área de preenchimento, possui as dimensões de largura e a altura do border-box.
+
+4. Área de margem (margin area) - Faz a separação do elemento de elementos vizinhos, faz um espaçamento fora do conteúdo.
