@@ -5,119 +5,142 @@
 
 ---
 #### **I.** Cite as principais tags HTML e para que servem respectivamente. Dê exemplos de situações reais de onde são usadas;
-<br/>
+<br>
 
 ***Resposta:***
-1. Tag de comentário ***<!--  - ->***
+
+1. Tag de comentário <b><!--  - -></b>
 <P>Tag utilizada para inserir comentários dentro do código, orientações, explicações, observações e etc.. Todo comentário feito não é exibido na execução do código na web, o mesmo fica visível apenas na estrutura do código.</P>
 
-<img src="https://ik.imagekit.io/zo6fhpfjl5f/img1_V6puE2LehVi2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646933016734">
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img1_e8XI57i1jDR1T.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126223195">
 
-
-2. Tag do início e fim do código **< html> < /html>** 
+<br>
+2. Tag do início e fim do código <b>< html > < /html> </b>
 <p>Determina e limita onde o código começa e onde o mesmo termina. Representa a raiz do documento.</p>
 
-<img src="https://ik.imagekit.io/zo6fhpfjl5f/img2_vI38667JZN9c2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646935667216">
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img2_87_lLAzyPyjQ1.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126223273">
 
-
-3. Tag **< head></ head>**
+<br>
+3. Tag <b>< head>< /head> </b>
 <p>Utilizada para definir o começo e o fim do cabeçalho de um documento html.</>
 
-<img src="https://ik.imagekit.io/zo6fhpfjl5f/img3_TN6tXTydc.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646935699823">
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img3_snrm2ymuFC6P4.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126223460">
 
-
-4. Tag **< meta>**
+<br>
+4. Tag <b>< meta></b>
 <p>Esta tag deve ser inserida dentro da tag head. Ela apresenta conceitos básicos sobre o documento, como: conjunto de caracteres (caracteres universal: “UTF-8”), autor, descrição breve do documento, conteúdo da página, data de criação e etc.</p>
 
-<img src="https://ik.imagekit.io/zo6fhpfjl5f/img4_NnABXkBPeFMJ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646935700221">
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img4_CXMHMpix5ixu.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126224169">
 
-
-5. Tag **< title></ title>**
+<br>
+5. Tag <b>< title></ title></b>
 <p>Usada para inserir um título que será exibido no topo da janela web</p>
 
-<img src="https://ik.imagekit.io/zo6fhpfjl5f/img5.0_d9EEehxmM_u2U.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646935700360">
-</br>
-VISUALIZAÇÃO
-<img src="https://ik.imagekit.io/zo6fhpfjl5f/img5.1_QHjbXQlYJf_Sa.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646951532468">
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img5.0_z3AAnkkdELem0.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126225554">
+<br>
 
+**VISUALIZAÇÃO**
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img5.1_n0v_UTS39O3Ei.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126224355">
 
-6. Tag **< style></ style>**
+<br>
+6. Tag <b>< style> /style></b>
 <p>Tag utilizada para atribuições de estilo a toda página web, define margem, cor, fonte</p>
 
-<img src="https://ik.imagekit.io/zo6fhpfjl5f/img6.0_61e12YyEjhrh.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646935700797">
-VISUALIZAÇÃO
-</br>
-<img src="https://ik.imagekit.io/zo6fhpfjl5f/img6.1_bFYcRZ20-.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646951532792">
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img6.0_V7hHkMxY6y-l.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126226065">
+<br>
 
+**VISUALIZAÇÃO**
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img6.1_flBPvC9GLwuDd.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126226245">
 
-7. Tag **< hn>< /hn>** nivel de texto
+<br>
+7. Tag <b>< hn>< /hn></b> nivel de texto
 <p>Define o nível de texto, o “n” deve ser substituído por um número. Na ordem crescente o número 1 tem exibição de nível maior, do 2 em diante o nível da fonte vai diminuindo.</p>
 
-<img src="https://ik.imagekit.io/zo6fhpfjl5f/img7.0_9-fzDpR-KWS2V.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646935701475">
-VISUALIZAÇÃO
-</br>
-<img src="https://ik.imagekit.io/zo6fhpfjl5f/img7.1_NUkBrtgLPRKn.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646951532742">
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img7.0_k8w-OJKV0Kkm.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126227398">
+<br>
 
+**VISUALIZAÇÃO**
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img7.1_2OGPeJ3j0rMM.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126227402">
 
-8. Tag **< p></ p>**
+<br>
+8. Tag <b>< p>< /p></b>
 <p>Define começo e o fim de um parágrafo</p>
 
-<img src="https://ik.imagekit.io/zo6fhpfjl5f/img8_xaTEt8YMEbVEM.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646935702145">
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img8_SO2TI4BI13KeD.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126228404">
 
-
-9. Tag **< body></ body>**
+<br>
+9. Tag <b>< body>< /body></b>
 <p>Corpo do documento HTML, parte principal da página web</p>
 
-<img src="https://ik.imagekit.io/zo6fhpfjl5f/img9_x4cXhEKpGW4b.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646973746546">
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img9_Zz6mjcjGuEUok.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126227757">
 
-
-10. Tag **< u></ u> , < i></ i>**
+<br>
+10. Tag <b>< u>< /u></b> , <b>< i>< /i></b>
 <p>Formata textos em sublinhado e itálico</p>
 
-<img src="https://ik.imagekit.io/zo6fhpfjl5f/img10_47ZVSvQBbD.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646974140480">
-VISUALIZAÇÃO
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img10.0_zsG9grk-oyI1z.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126227392">
+<br>
 
-<img src="https://ik.imagekit.io/zo6fhpfjl5f/img10.1___UMW1Y1Ks.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646974292291">
+**VISUALIZAÇÃO**
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img10.1_WXU_Aj0VkoIM-.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126227397">
 
-
-11. Tag **< br></ br>**
+<br>
+11. Tag <b>< br>< /br></b>
 <p>Define uma quebra de linha</p>
 
-<img src="https://ik.imagekit.io/zo6fhpfjl5f/img11.0_ySTRLr_qhXvw.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646974627161">
-VISUALIZAÇÃO
-<img src="https://ik.imagekit.io/zo6fhpfjl5f/img11.1_3NAVHWcyp.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646974627371">
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img11.0_CW4vLAVIueKhQ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126227389">
+<br>
 
-12. Tag **< div></ div>**
+**VISUALIZAÇÃO**
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img11.1_nWhy1fk_nCwBB.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126227756">
+
+<br>
+12. Tag <b>< div>< /div></b>
 <p>Define um bloco inteiro de conteúdo para organizar o conteúdo na página Web.<p>
 
-<img src="https://ik.imagekit.io/zo6fhpfjl5f/img12.0_Vw9j1CO6Bnv2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647017773837">
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img12.0_jME4ATNckSW9-.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126229290">
+<br>
 
-13. Tag **< font></ font>**
+**VISUALIZAÇÃO**
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img12.1_4ZJ93vDtwCKoM.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126229292">
+
+
+<br>
+13. Tag <b>< font>< /font></b>
 <p>Define a fonte<p>
 
-14. Tag **< img></ img>**
+<br>
+14. Tag <b>< img>< /img></b>
 <p>Utilizada para inserir imagens na página web<p>
 
-15. Tag **< table></ table>**
+<br>
+15. Tag <b>< table>< /table></b>
 <p>Utilizada para criar tabelas<p>
-<img src="https://ik.imagekit.io/zo6fhpfjl5f/img15.0_5nCJ8jZaHJ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647018695745">
-VISUALIZAÇÃO
-<img src="https://ik.imagekit.io/zo6fhpfjl5f/img15.1_1kIb-I-FA-.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647018695569">
 
-16. Tag **< ul></ ul>**
-<p>Utilizada para criar listas não ordenadas (exemplo na tag 17)<p>
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img15.0_O8fkD2XhoMTI.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126229794">
+<br>
 
+**VISUALIZAÇÃO**
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img15.1_9EWaKp2PfkXwV.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126229783">
 
-17. Tag **< li></ li>**
+<br>
+16. Tag <b>< ul>< /ul></b>
+<p>Utilizada para criar listas não ordenadas (exemplo na tag 17)
+
+<br>
+17. Tag <b>< li>< /li></b>
 <p>Define cada item da lista<p>
-<img src="https://ik.imagekit.io/zo6fhpfjl5f/img17.0_IycETCQE2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647019051559">
-VISUALIZAÇÃO
-<img src="https://ik.imagekit.io/zo6fhpfjl5f/img17.1_4BWBUi8vWG8X.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647019051720">
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img17.0_RJrbn-EJ6Y6WG.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126230156">
+<br>
+
+**VISUALIZAÇÃO**
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img17.1_0FyAYM2bfy90-.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126229976">
   
+<br>
 
 ---
 #### **II.** Explique com suas palavras a importância do HTML Semântico;
-<br/>
+<br>
 
 ***Resposta:*** A importância do HTML semântico se vem do fato de que, ele trabalha com tags específicas (< header>, < section>, < article>, < nav>, < aside>, < main> e outras) que colaboram na estrutura do código, deixando ele limpo, organizado e bem estruturado, isso ajuda a descrever o conteúdo inserido no código.
 O HTML semântico também ajuda leitores com deficiência visual, pois promove uma interação voltada a acessibilidade.
@@ -125,55 +148,63 @@ Não sendo apenas algo bom ao usuário e leitor, a semântica também auxilia no
 
 ---
 #### **III.** Com base nos conceitos aprendidos no exercício anterior, crie um arquivo index.html que siga o exemplo a seguir:
-<img src="https://ik.imagekit.io/zo6fhpfjl5f/ex.iii_whFZFDclV.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646952327027">
 
-***Resposta:*** 
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/ex.iii_CUA1DYlvikLz4.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126223383">
+
+<br>
+
+***Resposta:***
 
 ```html
 <!doctype html>
 
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <title>Desafio 2 - index.html</title>
-  <style>
-    li {
-      color:blue;
-    }
-  </style>
 </head>
 
-<header>
-  <h1>Header</h1>
-<nav>  
-<ul>
-    <li><u>Item 1</u></li>
-    <li><u>Item 2</u></li>
-    <li><u>Item 3</u></li>
-</ul>
-</nav>
-</header>
+<body>
+  <header>
+    <h1>Header</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="url">Item 1</a></li>
+      <li><a href="url">Item 2</a></li>
+      <li><a href="url">Item 3</a></li>
+    </ul>
+  </nav>
 
-<section>
+  <section>
     <h3>Section</h3>
-</section>
+  </section>
 
-<article>
-  <h3>Article</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, Donec</p>
-</article>
+  <article>
+    <h3>Article</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, Donec</p>
+  </article>
 
-<aside>
-  <h3>Aside</h3>
-</aside>
+  <aside>
+    <h3>Aside</h3>
+  </aside>
 
-<footer>
-  <p><h3>Footer</h3></p>
-</footer>
+  <footer>
+    <h3>Footer</h3>
+  </footer>
+
+</body>
+
 </html>
 ```
+<br>
+
+---
+
 #### **IV.** O que é acessibilidade em páginas web?
-<br/>
+<br>
 
 ***Resposta:*** Acessibilidade em páginas web é apresentar funcionalidades que possibilitam a interação da pessoa com deficiência ao conteúdo exibido na página.
 Tais funcionalidades devem ser adaptáveis, leitores de ecrã, software de digitação, botões de auxilio e acesso ao suporte são essenciais para garantir uma boa navegabilidade ao portador de deficiência, isso promove a igualdade.
@@ -186,73 +217,76 @@ Tais funcionalidades devem ser adaptáveis, leitores de ecrã, software de digit
 
 ---
 #### **VI.** Com base nos conceitos de acessibilidade, crie um arquivo index_acessibilidade.html...
-<br/>
 
-<img src="https://ik.imagekit.io/zo6fhpfjl5f/ex.VI_hek6UMhtqDOB.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646952326981">
+
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/ex.VI_MbdfaNl_N1KGd.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126223252">
+
+<br>
 
 ***Resposta:*** 
+
 
 ```html
 <!doctype html>
 <html lang="pt-br">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Desafio 2 - index_acessibilidade.html</title>
- <style>
-    li {
-      color:blue;
-    }
-    p{
-    	font-style: normal;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Desafio 2 - index_acessibilidade.html</title>
+    <style>
+        figure {
+            margin-left: 0px;
+        }
+    </style>
 </head>
 
-<header>
-  <h1>Title</h1>
-<nav>  
-<ul>
-    <li><u>Item 1</u></li>
-    <li><u>Item 2</u></li>
-    <li><u>Item 3</u></li>
-</ul>
-</nav>
-</header>
+<body>
 
-<section>
-    <h2>Subtitle</h2>
-</section>
+    <header>
+        <h1>Title</h1>
+    </header>
 
-<article>
-  <h4>What is Lorem Ipsum</h4>
-  <p>Lorem Ipsum is simply dummy text of printing and typesetting industry</p>
-</article>
+    <nav>
+        <ul>
+            <li><a href="url">Item 1</a></li>
+            <li><a href="url">Item 2</a></li>
+            <li><a href="url">Item 3</a></li>
+        </ul>
+    </nav>
 
-<table border=1 width=20%>
-	<tr>
-		<th>Firtname</th>
-		<th>Lastname</th>
-		<th>Email</th>
-	</tr>
-	<tr>
-		<td>John</td>
-		<td>Doe</td>
-		<td>john@example.com</td>
-	</tr>
-</table>
+    <section>
+        <h2>Subtitle</h2>
+    </section>
 
-<figure>
-	<img src="https://www.w3.org/2015/10/W3C-Developers_Assets/W3C-Developers-Dark.png" alt="W3C Developers" width=100>
-</figure>
+    <article>
+        <h4>What is Lorem Ipsum</h4>
+        <p>Lorem Ipsum is simply dummy text of printing and typesetting industry</p>
+    </article>
 
-<script type="text/javascript">
-	var smile = (':)')
-</script>
+    <table border=1 width=20%>
+        <tr>
+            <th>Firtname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>john@example.com</td>
+        </tr>
+    </table>
 
-<footer>
-  <p><h3>All rights reserved + :)</h3></p>
-</footer>
+    <figure>
+        <img src="https://www.w3.org/2015/10/W3C-Developers_Assets/W3C-Developers-Dark.png" alt="W3C Developers" width=100>
+    </figure>
+
+    <footer>
+        <h3>All rights reserved </h3>
+        <p aria-label="smile">:)</p>
+    </footer>
+
+</body>
+
 </html>
-
 ```
 

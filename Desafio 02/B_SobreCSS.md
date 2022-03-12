@@ -5,13 +5,13 @@
 
 ---
 #### **I.** Explique com suas palavras a importância do CSS (mínimo 5 linhas e no máximo 10)
-<br/>
+<br>
 
 ***Resposta:*** O CSS é importante pois ele organiza todo o conteúdo da documentação, o deixando mais bonito, formatado e atrativo. Ele é como se fosse o designer do projeto da página Web, utilizando-se de atributos específicos para a identidade visual.
 
 ---
 #### **II.** Explique a diferença entre class & id.
-<br/>
+<br>
 
 ***Resposta:*** O selector class é atribuído para maus de um elemento e/ou grupo de elementos (definido pelo . ).
 
@@ -20,11 +20,11 @@ O selector id é atribuído apenas para um elemento específico (definido pela #
 
 ---
 #### **III.** Como podemos fazer a inserção do CSS na página?
-<br/>
+<br>
 
 ***Resposta:*** De forma mais simples, ele pode ser inserido através da tag < style></ style> dentro da sessão < head></ head>, o estilo é definido depois de identificado um seletor, podendo ser ele < body>, < h1>, < text>, < p> entre outros.
 
-Exemplo:
+***Exemplo:***
 
 ```html
 <!doctype html>
@@ -61,12 +61,13 @@ Exemplo:
 </nav>
 </html>
 ```
-Visualização:
-<img src="https://ik.imagekit.io/zo6fhpfjl5f/ex.c_qhtGUJDF6n3R.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646969627486">
+
+**VISUALIZAÇÃO**
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/ex.c_yqZKZjU0HU2vn.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126223056">
 
 ---
 #### **IV.** Explique o que é encadeamento e agrupamento de seletores.
-<br/>
+<br>
 
 ***Resposta:*** Os encadeados exigem uma especificidade, onde em casos de alterações de algum estilo em um elemento ou palavra em específico, você deve especificar como será feito.
 
@@ -75,7 +76,7 @@ Agrupamento de seletores é o conjunto vários elementos onde você deseja atrib
 
 ---
 #### **V.** O que é Box-Model e dê 3 exemplos de aplicação.
-<br/>
+<br>
 
 ***Resposta:*** Todo elemento inserido em uma página web, geralmente é acompanhado de uma caixa retangular.
 Uma dessas caixas (box), é a Box-Model, sendo ela um modelo padrão.
@@ -85,14 +86,14 @@ Alguns exemplos de aplicação são:  área de conteúdo (content area); área d
 
 ---
 #### **VI.** Explique a diferença entre Margin e Padding.
-<br/>
+<br>
 
 ***Resposta:*** O margin faz a separação do elemento de elementos vizinhos, faz um espaçamento fora do conteúdo.
 O padding realiza o preenchimento dentro dos limites do conteúdo.
 
 ---
 #### **VII.** Explique o que é Position e dê um exemplo de cada.
-<br/>
+<br>
 
 ***Resposta:*** Position é um recurso que ordena e determina o lugar/posição de elementos em uma determinada página web, blog, rede social etc.
 
