@@ -9,7 +9,7 @@
 
 ***Resposta:***
 
-1. Tag de comentário <b><!--  - -></b>
+1. Tag de comentário **<!--  - ->**
 <P>Tag utilizada para inserir comentários dentro do código, orientações, explicações, observações e etc.. Todo comentário feito não é exibido na execução do código na web, o mesmo fica visível apenas na estrutura do código.</P>
 
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img1_e8XI57i1jDR1T.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126223195">
@@ -37,9 +37,9 @@
 <p>Usada para inserir um título que será exibido no topo da janela web</p>
 
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img5.0_z3AAnkkdELem0.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126225554">
-<br>
 
 **VISUALIZAÇÃO**
+<br>
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img5.1_n0v_UTS39O3Ei.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126224355">
 
 <br>
