@@ -33,7 +33,7 @@
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img4_CXMHMpix5ixu.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126224169">
 
 <br>
-5. Tag <b>< title></ title></b>
+5. Tag <b>< title>< /title></b>
 <p>Usada para inserir um título que será exibido no topo da janela web</p>
 
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img5.0_z3AAnkkdELem0.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126225554">
@@ -42,7 +42,7 @@
 
 <br>
 6. Tag <b>< style> /style></b>
-<p>Tag utilizada para atribuições de estilo a toda página web, define margem, cor, fonte</p>
+<p>Tag utilizada para atribuições de estilo a toda página web, define margem, cor, fonte e etc.</p>
 
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img6.0_V7hHkMxY6y-l.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126226065">
 
@@ -50,7 +50,7 @@
 
 <br>
 7. Tag <b>< hn>< /hn></b> nivel de texto
-<p>Define o nível de texto, o “n” deve ser substituído por um número. Na ordem crescente o número 1 tem exibição de nível maior, do 2 em diante o nível da fonte vai diminuindo.</p>
+<p>Define o nível de texto, o “n” deve ser substituído por um número. Na ordem crescente o número 1 tem exibição de nível maior, do número 2 em diante, o nível da fonte vai diminuindo.</p>
 
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img7.0_k8w-OJKV0Kkm.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126227398">
 
@@ -58,7 +58,7 @@
 
 <br>
 8. Tag <b>< p>< /p></b>
-<p>Define começo e o fim de um parágrafo</p>
+<p>Define o começo e o fim de um parágrafo</p>
 
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img8_SO2TI4BI13KeD.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126228404">
 
@@ -86,7 +86,7 @@
 
 <br>
 12. Tag <b>< div>< /div></b>
-<p>Define um bloco inteiro de conteúdo para organizar o conteúdo na página Web.<p>
+<p>Define um bloco inteiro de conteúdo, auxilia na organização da página Web.<p>
 
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img12.0_jME4ATNckSW9-.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126229290">
 
@@ -100,6 +100,10 @@
 <br>
 14. Tag <b>< img>< /img></b>
 <p>Utilizada para inserir imagens na página web<p>
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img14.0_KdXlQ75Y7tmw.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647151817256">
+
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img14.1_idWgfTIsQT56V.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647151817595">
+
 
 <br>
 15. Tag <b>< table>< /table></b>
@@ -112,6 +116,7 @@
 <br>
 16. Tag <b>< ul>< /ul></b>
 <p>Utilizada para criar listas não ordenadas (exemplo na tag 17)
+<br>
 
 <br>
 17. Tag <b>< li>< /li></b>
@@ -121,6 +126,34 @@
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img17.1_0FyAYM2bfy90-.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126229976">
   
 <br>
+18. Tag <b>< strong>< /strong></b>
+<p>Deixa o texto em negrito<p>
+
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img18_AY6c3qiZw8dK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647143468431">
+
+<br>
+19. Tag <b>< a>< /a></b>
+<p>Cria um link e atribui elementos a ele<p>
+
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img19.0_BpqudWMdC7BH.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647143674353">
+
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img19.1_IZi0hV2Um9U2.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1647145271132">
+
+<br>
+20. Tag <b>< caption>< /caption></b>
+<p>Adiciona uma legenda nos elementos da página<p>
+
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img20.0_OyQXx-J8vFJ1T.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647144136055">
+
+<img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img20.1_ZQyZ9iQ7tbQH.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647144135917">
+
+
+
+
+
+
+
+
 
 ---
 #### **II.** Explique com suas palavras a importância do HTML Semântico;
@@ -197,7 +230,7 @@ Tais funcionalidades devem ser adaptáveis, leitores de ecrã, software de digit
 #### **V.** Quais são as boas práticas devemos adotar ao construir uma página web para que ela seja acessível?
 <br/>
 
-***Resposta:*** Utilização da semântica do HTML, conteúdo textual de fácil interpretação, layouts interativos, controles de UI, software de teclado, rótulos de textos significativos, tabelas.
+***Resposta:*** Utilização da semântica do HTML, conteúdo textual de fácil interpretação, layouts interativos, controles de UI, software de teclado, rótulos de textos significativos, tabelas e etc.
 
 ---
 #### **VI.** Com base nos conceitos de acessibilidade, crie um arquivo index_acessibilidade.html...
@@ -273,4 +306,27 @@ Tais funcionalidades devem ser adaptáveis, leitores de ecrã, software de digit
 
 </html>
 ```
+<br>
 
+Referências de pesquisa:
+
+- [Trybe - Comandos e tags html: confira os principais e mais usados!](https://blog.betrybe.com/desenvolvimento-web/comandos-e-tags-html/)
+<br>
+
+- [DevMedia - HTML Semântico: Conheça os elementos semânticos da HTML5](https://www.devmedia.com.br/html-semantico-conheca-os-elementos-semanticos-da-html5/38065#tag-article)
+<br>
+
+- [MdnWebDocs - HTML: Boas práticas em acessibilidade](https://developer.mozilla.org/pt-BR/docs/Learn/Accessibility/HTML)
+<br>
+
+- [GeekHunter - Você conhece HTML Semântico?](https://blog.geekhunter.com.br/voce-conhece-html-semantico/#:~:text=O%20HTML%20sem%C3%A2ntico%20%C3%A9%20a,mais%20f%C3%A1cil%20de%20interpretar%20p%C3%A1ginas.)
+<br>
+
+- [W3C Brasil - Cartilha de Acessibilidade na Web](https://www.w3c.br/pub/Materiais/PublicacoesW3C/cartilha-w3cbr-acessibilidade-web-fasciculo-I.html#:~:text=%E2%80%9DAcessibilidade%20na%20web%20significa%20que,e%20contribuir%20para%20a%20web.)
+<br>
+
+- [W3C - Componentes Essenciais da Acessibilidade Web](https://www.netfolio.pt/w3c/WAI_intro_components/)
+<br>
+
+- []()
+<br>

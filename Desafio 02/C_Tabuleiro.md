@@ -7,6 +7,7 @@ Crie um arquivo index_tabuleiro.html, nele irá criar 2 tabuleiros iguais ao da 
 **OBS.:** Lembre-se de colocar o título em cima para identificar cada tabuleiro.
 
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/ex.tabuleiro_lvKTLt3vx3mR.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647128500975">
+
 <br>
 
 ***Resposta:***

@@ -13,7 +13,7 @@
 #### **II.** Explique a diferença entre class & id.
 <br>
 
-***Resposta:*** O selector class é atribuído para maus de um elemento e/ou grupo de elementos (definido pelo . ).
+***Resposta:*** O selector class é atribuído para mais de um elemento e/ou grupo de elementos (definido pelo . ).
 
 O selector id é atribuído apenas para um elemento específico (definido pela #).
 
@@ -22,9 +22,9 @@ O selector id é atribuído apenas para um elemento específico (definido pela #
 #### **III.** Como podemos fazer a inserção do CSS na página?
 <br>
 
-***Resposta:*** De forma mais simples, ele pode ser inserido através da tag < style></ style> dentro da sessão < head></ head>, o estilo é definido depois de identificado um seletor, podendo ser ele < body>, < h1>, < text>, < p> entre outros.
+***Resposta:*** De forma mais simples, ele pode ser inserido através da tag < style></ style> dentro da sessão < head></ head>, o estilo é definido após de a identificação um seletor, podendo ser ele < body>, < h1>, < text>, < p> entre outros, ou inserindo um link rel dentro do head o direcionando para o css/style.css.
 
-***Exemplo:***
+***Exemplo simples:***
 
 ```html
 <!doctype html>
@@ -32,33 +32,42 @@ O selector id é atribuído apenas para um elemento específico (definido pela #
 
 <head>
     <style>
-        body{ /*Alterando a cor de fundo da página*/
-            background-color:purple;
+        body {
+            /*Alterando a cor de fundo da página*/
+            background-color: purple;
         }
-        h1{ /*Alterando estilos de texto nível 1*/
-            color:white;
+
+        h1 {
+            /*Alterando estilos de texto nível 1*/
+            color: white;
             text-align: center;
             font-style: italic;
         }
-        h2{ /*Alterando estilos de texto nível 2*/
-            color:yellow;
+
+        h2 {
+            /*Alterando estilos de texto nível 2*/
+            color: yellow;
         }
-        li{ /*Alterando estilos de lista*/
-            color:pink;
+
+        li {
+            /*Alterando estilos de lista*/
+            color: pink;
         }
     </style>
 </head>
+
 <body>
-    <h1>Testando a cor branca na fonte, alinhado no meio e em itálico</h1>
+    <h1>Testando a cor branca nas letras, alinhado no meio e formatado em itálico</h1>
     <h2>Testando a cor amarela na fonte</h2>
 </body>
 <nav>
     <ul>
-        <li>A lista ficará pink</li>
-        <li>A lista ficará pink</li>
-        <li>A lista ficará pink</li>
+        <li><b>A lista ficará pink</b></li>
+        <li><b>A lista ficará pink</b></li>
+        <li><b>A lista ficará pink</b></li>
     </ul>
 </nav>
+
 </html>
 ```
 <br>
@@ -103,3 +112,26 @@ O padding realiza o preenchimento dentro dos limites do conteúdo.
 3.  Área de borda (border area) - Se estende da área de preenchimento, possui as dimensões de largura e a altura do border-box.
 
 4. Área de margem (margin area) - Faz a separação do elemento de elementos vizinhos, faz um espaçamento fora do conteúdo.
+---
+Referências de pesquisa:
+<br>
+
+- [GoDaddy Brasil - Position CSS: Estilos de Posição Para O Seu Layout](https://br.godaddy.com/blog/position-css-estilos-de-posicao-para-seu-layout/#:~:text=A%20position%20CSS%20%C3%A9%20um,devido%20a%20esse%20%E2%80%9Ccomando%E2%80%9D.)
+<br>
+
+- [MdnWebDocs - Box model](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
+<br>
+
+- [GETTING STARTED - Box Model](https://tableless.github.io/iniciantes/manual/css/box-model.html)
+<br>
+
+- [IMasters - Seletores Agrupados e Encadeados](https://imasters.com.br/css/seletores-agrupados-e-encadeados)
+<br>
+
+- [Linha de código - Agrupando seletores em uma regra CSS](http://www.linhadecodigo.com.br/artigo/276/agrupando-seletores-em-uma-regra-css.aspx)
+<br>
+
+- [Tableless - Seletores Agrupados e Encadeados](https://tableless.com.br/seletores-agrupados-e-encadeados/)
+<br>
+
+- [DPW - Diferenças entre IDs e Classes](https://desenvolvimentoparaweb.com/css/diferencas-entre-ids-e-classes/)
