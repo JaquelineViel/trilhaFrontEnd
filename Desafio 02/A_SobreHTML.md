@@ -38,7 +38,6 @@
 
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img5.0_z3AAnkkdELem0.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126225554">
 
-VISUALIZAÇÃO
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img5.1_n0v_UTS39O3Ei.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126224355">
 
 <br>
@@ -46,9 +45,7 @@ VISUALIZAÇÃO
 <p>Tag utilizada para atribuições de estilo a toda página web, define margem, cor, fonte</p>
 
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img6.0_V7hHkMxY6y-l.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126226065">
-<br>
 
-**VISUALIZAÇÃO**
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img6.1_flBPvC9GLwuDd.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126226245">
 
 <br>
@@ -56,9 +53,7 @@ VISUALIZAÇÃO
 <p>Define o nível de texto, o “n” deve ser substituído por um número. Na ordem crescente o número 1 tem exibição de nível maior, do 2 em diante o nível da fonte vai diminuindo.</p>
 
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img7.0_k8w-OJKV0Kkm.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126227398">
-<br>
 
-**VISUALIZAÇÃO**
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img7.1_2OGPeJ3j0rMM.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126227402">
 
 <br>
@@ -78,9 +73,7 @@ VISUALIZAÇÃO
 <p>Formata textos em sublinhado e itálico</p>
 
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img10.0_zsG9grk-oyI1z.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126227392">
-<br>
 
-**VISUALIZAÇÃO**
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img10.1_WXU_Aj0VkoIM-.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126227397">
 
 <br>
@@ -88,9 +81,7 @@ VISUALIZAÇÃO
 <p>Define uma quebra de linha</p>
 
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img11.0_CW4vLAVIueKhQ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126227389">
-<br>
 
-**VISUALIZAÇÃO**
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img11.1_nWhy1fk_nCwBB.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126227756">
 
 <br>
@@ -98,9 +89,7 @@ VISUALIZAÇÃO
 <p>Define um bloco inteiro de conteúdo para organizar o conteúdo na página Web.<p>
 
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img12.0_jME4ATNckSW9-.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126229290">
-<br>
 
-**VISUALIZAÇÃO**
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img12.1_4ZJ93vDtwCKoM.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126229292">
 
 
@@ -117,9 +106,7 @@ VISUALIZAÇÃO
 <p>Utilizada para criar tabelas<p>
 
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img15.0_O8fkD2XhoMTI.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126229794">
-<br>
 
-**VISUALIZAÇÃO**
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img15.1_9EWaKp2PfkXwV.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126229783">
 
 <br>
@@ -130,9 +117,7 @@ VISUALIZAÇÃO
 17. Tag <b>< li>< /li></b>
 <p>Define cada item da lista<p>
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img17.0_RJrbn-EJ6Y6WG.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126230156">
-<br>
 
-**VISUALIZAÇÃO**
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img17.1_0FyAYM2bfy90-.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126229976">
   
 <br>

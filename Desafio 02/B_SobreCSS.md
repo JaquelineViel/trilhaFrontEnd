@@ -61,8 +61,7 @@ O selector id é atribuído apenas para um elemento específico (definido pela #
 </nav>
 </html>
 ```
-
-**VISUALIZAÇÃO**
+<br>
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/ex.c_yqZKZjU0HU2vn.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126223056">
 
 ---
