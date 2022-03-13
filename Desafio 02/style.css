@@ -1,0 +1,19 @@
+        /*CSS Referente ao tabuleiro*/
+        
+        div {
+            width: 43px;
+            height: 43px;
+            position: relative;
+            left: 266px;
+            margin-top: -0.0em;
+            white-space: nowrap;
+            display: inline-block;
+        }
+        
+        .black {
+            background-color: black;
+        }
+        
+        .silver {
+            background-color: silver;
+        }
