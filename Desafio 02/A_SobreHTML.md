@@ -38,8 +38,7 @@
 
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img5.0_z3AAnkkdELem0.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126225554">
 
-**VISUALIZAÇÃO**
-<br>
+VISUALIZAÇÃO
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/imagens_corretas/img5.1_n0v_UTS39O3Ei.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647126224355">
 
 <br>
