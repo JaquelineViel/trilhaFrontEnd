@@ -1,9 +1,10 @@
-/*Referente ao grid exercicio I*/
+/*Grid responsivo*/
+
 .container {
     padding: 5px;
     display: grid;
-    gap: 10px;
-    grid-template-areas: 'header header header' 'nav nav nav' 'section aside aside' 'article 0 0' 'footer footer footer';
+    gap: 15px;
+    grid-template-areas: 'header header header' 'nav nav nav' 'section aside aside' 'article article article' 'footer footer footer';
 }
 
 .container div {
@@ -30,8 +31,7 @@
 #article {
     grid-area: article;
     background-color: grey;
-    height: 80px;
-    padding-right: 80px;
+    height: 150px;
 }
 
 #aside {
