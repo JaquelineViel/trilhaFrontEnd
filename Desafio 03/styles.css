@@ -1,0 +1,76 @@
+/*Referente ao flexbox responsivo*/
+
+* {
+    margin: 0, 5%;
+    padding: 0, 5%;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 0% 20px;
+    align-items: center;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+li:hover,
+h1:hover,
+img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+nav,
+ul,
+li {
+    list-style: none;
+}
+
+nav ul.menu {
+    position: absolute;
+    padding: 5px;
+    top: 71px;
+    right: 0.6%;
+    border: 1px solid black;
+    display: none;
+    flex-direction: column;
+}
+
+nav ul.menu li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+nav ul.menu li {
+    margin-right: 33px;
+}
+
+nav ul.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media(min-width: 600px) {
+    nav ul.menu {
+        display: flex!important;
+        flex-direction: row;
+        position: relative;
+        right: 50%;
+        top: 0%;
+        padding: 0%;
+        justify-content: space-between;
+        border: none;
+        flex-wrap: wrap;
+    }
+    img {
+        display: none;
+    }
+    nav ul.menu li:not(:last-child) {
+        margin-bottom: 0;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
