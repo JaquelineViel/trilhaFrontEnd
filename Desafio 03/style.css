@@ -1,0 +1,44 @@
+.container {
+    padding: 5px;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 'header header header' 'nav nav nav' 'section aside aside' 'article 0 0' 'footer footer footer';
+}
+
+.container div {
+    background-color: silver;
+    padding: 5px;
+}
+
+#header {
+    grid-area: header;
+}
+
+#nav {
+    grid-area: nav;
+    background-color: blue;
+    color: white;
+}
+
+#section {
+    grid-area: section;
+    height: 150px;
+    padding-right: 500px;
+}
+
+#article {
+    grid-area: article;
+    background-color: grey;
+    height: 80px;
+    padding-right: 80px;
+}
+
+#aside {
+    grid-area: aside;
+    height: 150px;
+    padding-right: 500px;
+}
+
+#footer {
+    grid-area: footer;
+}
