@@ -27,7 +27,7 @@ Se o valor escolhido for column (coluna) ou column-reverse (coluna reversa) e o 
 
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/3IMG/img1.1_ubnFwBbKELZ75.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647452577005">
 
-Fonte de informações:
+Fonte de pesquisa:
 [Developer.mozilla](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
 
 ---
@@ -44,7 +44,7 @@ Se o eixo principal for definido nas colunas, como column ou column-reverse, ent
 
 <img src="https://ik.imagekit.io/zo6fhpfjl5f/3IMG/img2.1_JMCGXAdAn4mrs.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647452577256">
 
-Fonte de informações:
+Fonte de pesquisa:
 [Developer.mozilla](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
 
 ---
@@ -188,12 +188,11 @@ O flex-wrap apresenta uma maneira mais fácil de manipular os elementos, sendo a
                 <img src="https://img.icons8.com/android/24/000000/menu.png">
             </div>
             <ul class="menu">
-                <ul>
-                    <li>Menu 1</li>
-                    <li>Menu 2</li>
-                    <li>Menu 3</li>
-                    <li>Menu 4</li>
-                </ul>
+                <li>Menu 1</li>
+                <li>Menu 2</li>
+                <li>Menu 3</li>
+                <li>Menu 4</li>
+            </ul>
         </nav>
     </div>
     </div>
@@ -265,7 +264,6 @@ nav ul.button {
         display: flex!important;
         flex-direction: row;
         position: relative;
-        right: 50%;
         top: 0%;
         padding: 0%;
         justify-content: space-between;

@@ -4,11 +4,11 @@
 ## Exercícios GridLayout
 
 ---
-#### **A.** Explique o que é o FlexBox?
+#### **A.** Explique o que é o GridLayout?
 <br>
 
 ***Resposta:*** Uma ferramenta de programação visual utilizada em grandes sessões de uma página web. São grades que formam linhas auxiliares na vertical e horizontal tornando o layout mais estilizado e alinhado.
-Também pode ser definido como pai (container) onde diz como os elementos filhos (item) vão se comportar.
+Também pode utizar os elementos pai (container) onde diz como os elementos filhos (item) vão se comportar.
 
 ---
 #### **B.** Cite e dê exemplos das propriedades do Grid Container?
@@ -16,27 +16,59 @@ Também pode ser definido como pai (container) onde diz como os elementos filhos
 
 ***Resposta:*** 
 
-- display: grid 
-// Torna o elemento um grid container.
+- display: Define o elemento como um grid container;
 
-- display: inline-grid
-// Torna o elemento um grid container porém com comportamento inline.
+- grid-template-columns: Define o número total de colunas que serão criadas no grid;
 
-- display: subgrid;
-// Para grids dentro de grids (ainda não é suportado, porém você pode normalmente colocar display: grid; no grid dentro do grid que funciona).
+- grid-template-rows: Define a quantidade de linhas no grid;
+
+- grid-template-areas: Define áreas específicas no grid. O ponto (.) pode ser utilizado para criar áreas vazias;
+
+- grid-template: Atalho para definir o grid-template-columns, grid-template-rows e grid-template-areas;
+
+- gap: Define o gap (gutter) entre os elementos do grid;
+
+- grid-auto-columns: Define o tamanho das colunas do grid implícito (gerado automaticamente, quando algum elemento é posicionado em uma coluna que não foi definida);
+
+- grid-auto-rows - Define o tamanho das linhas do grid implícito (gerado automaticamente, quando algum elemento é posicionado em uma linha que não foi definida);
+
+- grid-auto-flow: Define o fluxo dos itens no grid. Se eles vão automaticamente gerar novas linhas ou colunas;
+
+- grid: Atalho geral para definir o grid: grid-template-rows, grid-template-columns, grid-template-areas, grid-auto-rows, grid-auto-columns e grid-auto-flow;
+
+- justify-content: Justifica os itens do grid em relação ao eixo x (horizontal);
+
+- align-content: Alinha os itens do grid em relação ao eixo y (vertical);
+
+- justify-items: Justifica o conteúdo dos itens do grid em relação ao eixo x (horizontal). Justifica em relação a célula;
+
+- align-items: Alinha o conteúdo dos itens do grid em relação ao eixo y (vertical). Alinha em relação a célula;
+
+<br>
+
+Fonte de pesquisa: [Origamid](https://www.origamid.com/projetos/css-grid-layout-guia-completo/)
 
 ---
 #### **C.** Cite e dê exemplos das propriedades do Grid Item?
 <br>
 
 ***Resposta:*** 
-- grid-row-start - que recebe a linha vertical em que deve iniciar,
 
-- grid-row-end - que recebe a linha vertical em que deve acabar,
+- grid-column: Define quais colunas serão ocupadas pelo grid item. É possível definir uma linha de início e final, assim o item irá ocupar múltiplas colunas.
 
-- grid-column-start - que recebe a linha horizontal em que deve iniciar e
+- grid-row: Define quais linhas serão ocupadas pelo grid item - Atenção aqui, pois esse linha é referente a row. Porém as chamadas grid lines que por tradução também significam linhas do grid, são diferentes. Uma row (linha), possui sempre 2 grid lines (linhas do grid), uma no início dela e uma no final dela.
 
-- grid-column-end- que recebe a linha horizontal em que deve acabar.
+- grid-area: Define a área do item do grid. É um atalho para grid-row-start, grid-column-start, grid-row-end, grid-column-end.
+O z-index pode ser utilizado para manipular a posição no eixo Z do item. Ou seja, se um item for posicionado em cima de outro, o z-index controla qual vêm na frente.
+
+- justify-self: Justifica o item do grid em relação ao eixo x (horizontal). Justifica em relação a célula.
+
+- align-self: Justifica o item do grid em relação ao eixo y (vertical). Alinha em relação a célula.
+
+<br>
+
+Fonte de pesquisa: [Origamid](https://www.origamid.com/projetos/css-grid-layout-guia-completo/)
+
 ---
 #### **D.** O que é a unidade fr?
 <br>
@@ -91,32 +123,38 @@ Também pode ser definido como pai (container) onde diz como os elementos filhos
 
 <body>
     <div class="container" id="templade-areas">
-        <div id="header">
+
+        <header id="header">
             <h3>
                 Header
             </h3>
-        </div>
-        <div id="nav">
+        </header>
+
+        <nav id="nav">
             <h3>
                 Nav
             </h3>
-        </div>
-        <div id="section">
+        </nav>
+
+        <section id="section">
             <h3>
                 Section
             </h3>
-        </div>
-        <div id="article">
-            <h3>
-                Article
-            </h3>
-        </div>
-        <div id="aside">
+            <article id="article">
+                <h3>
+                    Article
+                </h3>
+            </article>
+        </section>
+
+        <aside id="aside">
             <h3>Aside</h3>
-        </div>
-        <div id="footer">
+        </aside>
+
+        <footer id="footer">
             <h3>Footer</h3>
-        </div>
+        </footer>
+
     </div>
 
 </body>
@@ -131,8 +169,8 @@ Também pode ser definido como pai (container) onde diz como os elementos filhos
 .container {
     padding: 5px;
     display: grid;
-    gap: 10px;
-    grid-template-areas: 'header header header' 'nav nav nav' 'section aside aside' 'article 0 0' 'footer footer footer';
+    gap: 15px;
+    grid-template-areas: 'header header header' 'nav nav nav' 'section section aside' 'footer footer footer';
 }
 
 .container div {
@@ -142,35 +180,43 @@ Também pode ser definido como pai (container) onde diz como os elementos filhos
 
 #header {
     grid-area: header;
+    background-color: silver;
+    padding-left: 2%;
 }
 
 #nav {
     grid-area: nav;
     background-color: blue;
     color: white;
+    padding-left: 2%;
 }
 
 #section {
     grid-area: section;
-    height: 150px;
-    padding-right: 500px;
+    background-color: silver;
+    padding-left: 3%;
+    height: 300px;
+    padding-right: 20px;
 }
 
 #article {
     grid-area: article;
     background-color: grey;
-    height: 80px;
-    padding-right: 80px;
+    padding-left: 1%;
+    height: 220px;
+    margin: 1%;
 }
 
 #aside {
     grid-area: aside;
-    height: 150px;
-    padding-right: 500px;
+    background-color: silver;
+    padding-left: 5%;
 }
 
 #footer {
     grid-area: footer;
+    background-color: silver;
+    padding-left: 2%;
 }
 ```
 
@@ -198,40 +244,40 @@ Também pode ser definido como pai (container) onde diz como os elementos filhos
 
 <body>
     <div class="container" id="templade-areas">
-        <div id="header">
-            <h3>
+
+        <header id="header">
+            <h1>
                 Header
-            </h3>
-        </div>
-        <div id="nav">
-            <h3>
-                Nav
-            </h3>
+            </h1>
+        </header>
+
+        <nav id="nav">
             <ul>
                 <li><a href="#" style="color: white;">Item 1</a></li>
                 <li><a href="#" style="color: white;">Item 2</a></li>
                 <li><a href="#" style="color: white;">Item 3</a></li>
             </ul>
-        </div>
-        <div id="section">
-            <h3>
-                Section
-            </h3>
-        </div>
-        <div id="article">
-            <h3>
-                Article
-            </h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p>Donec ac uma nisl. Maecenas quis mauris ac nisi volutpat</p>
-            <p>tincidunt sed id orci Fusce dapibus gravida arcu.</p>
-        </div>
-        <div id="aside">
+        </nav>
+
+        <section id="section">
+            <article id="article">
+                <h2>
+                    Article
+                </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Donec ac uma nisl. Maecenas quis mauris ac nisi volutpat</p>
+                <p>tincidunt sed id orci Fusce dapibus gravida arcu.</p>
+            </article>
+        </section>
+
+        <aside id="aside">
             <h3>Aside</h3>
-        </div>
-        <div id="footer">
+        </aside>
+
+        <footer id="footer">
             <h3>Footer</h3>
-        </div>
+        </footer>
+
     </div>
 
 </body>
@@ -245,10 +291,10 @@ Também pode ser definido como pai (container) onde diz como os elementos filhos
 
 ```css
 .container {
-    padding: 5px;
+    padding: 4px;
     display: grid;
     gap: 15px;
-    grid-template-areas: 'header header header' 'nav nav nav' 'section aside aside' 'article article article' 'footer footer footer';
+    grid-template-areas: 'header header header' 'nav nav nav' 'section section aside' 'footer footer footer';
 }
 
 .container div {
@@ -258,34 +304,50 @@ Também pode ser definido como pai (container) onde diz como os elementos filhos
 
 #header {
     grid-area: header;
+    background-color: silver;
+    padding-left: 2%;
+    height: 80px;
 }
 
 #nav {
     grid-area: nav;
     background-color: blue;
     color: white;
+    padding-left: 0%;
+    height: 80px;
 }
 
 #section {
     grid-area: section;
-    height: 150px;
-    padding-right: 500px;
+    background-color: silver;
+    height: 210px;
 }
 
 #article {
     grid-area: article;
-    background-color: grey;
-    height: 150px;
+    background-color: silver;
+    margin: 6%;
 }
 
 #aside {
     grid-area: aside;
-    height: 150px;
-    padding-right: 500px;
+    background-color: silver;
+    padding-left: 5%;
 }
 
 #footer {
     grid-area: footer;
+    background-color: silver;
+    padding-left: 2%;
+}
+
+@media(max-width: 600px) {
+    .container {
+        padding: 5px;
+        display: grid;
+        gap: 10px;
+        grid-template-areas: 'header header' 'nav nav' 'section section' 'aside aside' 'footer footer';
+    }
 }
 ```
 
@@ -297,3 +359,6 @@ Referências de pesquisa:
 - [Developer.mozilla](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
 
 - [Tableless](https://tableless.com.br/um-pouco-sobre-css-grid-layout/)
+
+- [Origamid](https://www.origamid.com/projetos/css-grid-layout-guia-completo/)
+
