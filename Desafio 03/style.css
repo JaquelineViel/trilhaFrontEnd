@@ -1,0 +1,52 @@
+.container {
+    padding: 5px;
+    display: grid;
+    gap: 15px;
+    grid-template-areas: 'header header header' 'nav nav nav' 'section section aside' 'footer footer footer';
+}
+
+.container div {
+    background-color: silver;
+    padding: 5px;
+}
+
+#header {
+    grid-area: header;
+    background-color: silver;
+    padding-left: 2%;
+}
+
+#nav {
+    grid-area: nav;
+    background-color: blue;
+    color: white;
+    padding-left: 2%;
+}
+
+#section {
+    grid-area: section;
+    background-color: silver;
+    padding-left: 3%;
+    height: 300px;
+    padding-right: 20px;
+}
+
+#article {
+    grid-area: article;
+    background-color: grey;
+    padding-left: 1%;
+    height: 220px;
+    margin: 1%;
+}
+
+#aside {
+    grid-area: aside;
+    background-color: silver;
+    padding-left: 5%;
+}
+
+#footer {
+    grid-area: footer;
+    background-color: silver;
+    padding-left: 2%;
+}
