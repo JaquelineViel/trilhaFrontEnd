@@ -1,0 +1,57 @@
+    @media screen and (max-width: 600px) {
+        /* Responsivo - menu */
+        nav ul.menu {
+            display: none;
+            z-index: 10;
+            font-size: 15px;
+            background-color: white;
+            flex-direction: column;
+            position: absolute;
+            top: 50px;
+            padding: 15px;
+            border: 0;
+            justify-content: space-between;
+            border: 1px solid black;
+            align-items: center;
+        }
+        nav ul.menu li {
+            margin-right: 0px;
+        }
+        li {
+            height: 40px;
+        }
+        button.btn {
+            margin-right: 0px;
+        }
+        /* Responsivo - menu burguer */
+        .imgmenu {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        /* Lado esquerdo - imagem do site */
+        .E {
+            display: none;
+        }
+        /* Linha horizontal */
+        #linha-horizontal {
+            display: flex;
+            border-top: 2px solid rgb(170, 168, 168);
+            margin-top: -30px;
+            width: 90%;
+            margin-left: 10%;
+        }
+        /* Lado direito - Conteúdo e formulário */
+        #header {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            margin-right: 0px;
+        }
+        .form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            margin-right: 0px;
+        }
+    }

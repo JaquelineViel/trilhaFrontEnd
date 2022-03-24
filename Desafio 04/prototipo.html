@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Desafio 4 - Protótipo</title>
+    <link rel="stylesheet" href="styleprototipo.css">
+    <link rel="stylesheet" href="media.css">
+    <script src="https://kit.fontawesome.com/a9c0b9d10c.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Início - logo/ menu/ sign-in -->
+        <div class="inicio">
+            <nav>
+                <h3>
+                    <a href="#" style="color:purple; text-decoration: none;">
+                        <font face="verdana">YOUR</font>
+                        <font face="lucida sans">LOGO</font>
+                    </a>
+                </h3>
+
+
+                <img class="imgmenu" src="https://img.icons8.com/android/24/000000/menu.png ">
+
+
+                <ul class="menu">
+                    <font face="lucida sans">
+                        <li>Home</li>
+                    </font>
+
+                    <font face="lucida sans">
+                        <li>Profile</li>
+                    </font>
+
+                    <font face="lucida sans">
+                        <li>About</li>
+                    </font>
+
+                    <font face="lucida sans">
+                        <li>Contact</li>
+                    </font>
+
+                    <button class="btn">Sign-In</button>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Lado esquerdo - Imagem do site -->
+
+        <div class="E">
+            <article class="imgsite">
+                <img src="imgsite.png" alt="imagem-principal">
+            </article>
+        </div>
+
+        <!-- Lado direito - Conteúdo/ linha/ formulário/ -->
+
+        <div class="D">
+            <header id="header">
+                <h1>
+                    CONTACT US
+                </h1>
+
+                <article id="article">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Donec ac uma nisl. Maecenas quis mauris ac nisi volutpat</p>
+                    <p>tincidunt sed id orci Fusce dapibus gravida arcu.</p>
+                </article>
+            </header>
+
+            <!-- Linha horizontal -->
+            <div id="linha-horizontal"></div>
+
+            <!-- Formulario -->
+            <form class="form">
+
+                <label class="label-input">
+                <i class="far fa-user icon-modify"></i>
+            <input type="text" placeholder="Your Name">
+            </label>
+
+                <label class="label-input">
+                <i class="far fa-envelope icon-modify"></i>    
+            <input type="subject" placeholder="Your Subject">
+            </label>
+
+                <label class="label-input">
+                <i class="far fa-message icon-modify"></i>    
+            <textarea type="message" placeholder="Your Message"></textarea>
+            </label>
+
+                <button class="btn-form">START CHAT</button>
+            </form>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
