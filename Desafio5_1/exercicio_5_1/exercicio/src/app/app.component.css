@@ -1,0 +1,14 @@
+* {
+    margin: 2%;
+    padding: 0%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    border: 3px solid black;
+    width: 50%;
+}
