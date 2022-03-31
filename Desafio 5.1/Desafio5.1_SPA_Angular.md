@@ -219,7 +219,7 @@ export class AppComponent {
 
   myturma = '10';
 
-  date = new Date('2022-03-30T19:23:10.000')
+  date = new Date();
 }
 ```
 
