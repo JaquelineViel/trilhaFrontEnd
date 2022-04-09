@@ -24,9 +24,3 @@ ComponentePaiComponent {
             }
         }
                
-    // _router: any;     
-    // cubo (valor: number) {
-    //     this._router.navigate(
-    //         ['/cubo'],
-    //         { queryParams: { valor: valor } }
-    //       );   
