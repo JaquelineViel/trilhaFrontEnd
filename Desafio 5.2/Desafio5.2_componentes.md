@@ -106,13 +106,23 @@ No caso do exemplo, pode-se notar que o templateUrl possui o valor de um link ex
 
 **VII.** Dê um exemplo de um botão chamando uma rota através de um método em angular.
 
-***Resposta:***
+***Resposta:*** 
+
+```html
+<button [routerLink]="['lista']">Abrir lista de números</button>
+```
 
 <br>
 
 **VIII.** Dê um exemplo de um botão chamando uma rota sem chamar um método em angular.
 
 ***Resposta:***
+
+```html
+<a href="lista">
+	<button>Abrir lista de números</button>
+</a>
+```
 
 <br>
 
