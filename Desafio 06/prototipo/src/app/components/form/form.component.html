@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <script src="https://kit.fontawesome.com/a9c0b9d10c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Linha horizontal -->
+    <div id="linha-horizontal"></div>
+
+    <!-- Formulario -->
+    <form class="form" [formGroup]="form">
+        <div>
+            <label class="label-input">
+                <i class="far fa-user icon-modify"></i>
+                <input type="text" placeholder="Your Name" formControlName="name" required>
+            </label>
+        </div>
+        <div *ngIf="name.invalid && name.touched" class="validation-error">
+            <p>O nome é obrigatório</p>
+        </div>
+
+        <div>
+            <label class="label-input">
+                <i class="far fa-envelope icon-modify"></i>
+                <input type="subject" placeholder="Your Subject" formControlName="subject" required>
+            </label>
+            <div *ngIf="subject.invalid && subject.touched" class="validation-error">
+                <p>O subject é obrigatório</p>
+            </div>
+        </div>
+
+        <div>
+            <label class="label-input">
+                <i class="far fa-message icon-modify"></i>
+                <textarea type="message" placeholder="Your Message" formControlName="message" required></textarea>
+            </label>
+            <div *ngIf="message.invalid && message.touched" class="validation-error">
+                <p>A message é obrigatória</p>
+            </div>
+
+        </div>
+
+        <div>
+            <button class="btn-form" [disabled]="!form.valid" [ngClass]="{'btn-form_disabled' : !form.valid}" (click)="post()">START CHAT</button>
+        </div>
+    </form>
+
+</body>
+
+</html>

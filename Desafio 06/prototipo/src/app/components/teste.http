@@ -1,0 +1,12 @@
+get http://localhost:3000/contact-us
+
+###
+
+post http://localhost:3000/contact-us http/1.1 content-type: application/json
+
+{
+    "id": "",
+    "name": "",
+    "subject": "",
+    "message": ""
+}
