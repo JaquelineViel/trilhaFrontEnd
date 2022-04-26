@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<body>
+
+  <button class="btn-responsive" [matMenuTriggerFor]="menu">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>
+      <span class="home">Home</span>
+    </button>
+    <button mat-menu-item>
+      <span class="profile">Profile</span>
+    </button>
+    <button mat-menu-item>
+      <span class="about">About</span>
+    </button>
+    <button mat-menu-item>
+      <span class="contact">Contact</span>
+    </button>
+    <button mat-menu-item>
+      <span class="sign-in">Sign In</span>
+    </button>
+  </mat-menu>
+
+</body>
+
+</html>

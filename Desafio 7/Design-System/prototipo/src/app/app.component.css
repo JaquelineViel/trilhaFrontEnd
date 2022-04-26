@@ -1,0 +1,211 @@
+* {
+  margin: 0, 5%;
+  padding: 0, 5%;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0px;
+  display: grid;
+  gap: 3px;
+  max-width: 97%;
+}
+
+/* Formatação dos blocos no grid */
+
+.inicio {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+/* LADO ESQUERDO - imagem site */
+
+.E {
+  display: grid;
+  height: 475px;
+  margin-left: -8px;
+}
+
+.imgsite {
+  display: flex;
+  justify-content: left;
+  position: static;
+  height: 483px;
+  margin-left: -2%;
+}
+
+/* LADO DIREITO */
+
+.D {
+  display: grid;
+  height: 475px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.logo-font {
+  font-weight: 100;
+}
+
+/* Início de conteúdo da página - logo/ menu/ sign-in */
+
+.logo {
+  margin-top: 16px;
+}
+
+/* Alinhamento do menu na div */
+
+dl,
+ol,
+ul {
+  margin-top: 16px;
+  margin-bottom: 1rem;
+}
+
+nav {
+  display: flex;
+  position: static;
+  padding: 0% 20px;
+  align-items: center;
+  height: 75px;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+nav,
+ul,
+li {
+  list-style: none;
+}
+
+nav ul.menu {
+  display: flex;
+  position: absolute;
+  padding: 5px;
+  right: 0.6%;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(80, 78, 78);
+}
+
+nav ul.menu li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+nav ul.menu li {
+  margin-right: 33px;
+}
+
+.btn-responsive {
+  display: none;
+}
+
+button.btn {
+  background-color: white;
+  color: purple;
+  font-size: 17px;
+  font-family: "Lucida Sans";
+  font-weight: 10;
+  line-height: 15px;
+  position: relative;
+  margin-right: 15px;
+  border: 2px solid purple;
+  border-radius: 25px;
+  width: 90px;
+  height: 30px;
+}
+
+button.btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  background-image: linear-gradient(
+    to right,
+    rgba(231, 12, 132, 0.247),
+    rgba(128, 0, 128, 0.212)
+  );
+}
+
+li:hover,
+img.btn-responsive:hover,
+input:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Header e Article */
+
+h1 {
+  font-size: 57px;
+  font-weight: 700;
+}
+
+#header {
+  display: flex;
+  position: static;
+  flex-direction: column;
+  color: purple;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  top: -30px;
+  margin-top: 20px;
+  text-align: right;
+  margin-right: 40px;
+}
+
+#article {
+  color: rgb(80, 78, 78);
+  font-size: 12px;
+  font-family: "Lucida Sans";
+  position: relative;
+  top: -20px;
+  margin-top: 20px;
+}
+
+/* linha horizontal */
+
+#linha-horizontal {
+  border: 0;
+  border-top: 2px solid rgba(170, 168, 168, 0.297);
+  margin-top: -47px;
+  width: 93%;
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  /* Responsivo - menu */
+  nav ul.menu {
+    display: none;
+  }
+  button.btn {
+    display: none;
+  }
+  /* Lado esquerdo - imagem do site */
+  .E {
+    display: none;
+  }
+  /* Linha horizontal */
+  #linha-horizontal {
+    display: flex;
+    border-top: 2px solid rgb(170, 168, 168);
+    margin-top: -30px;
+    width: 90%;
+    margin-left: 10%;
+  }
+  /* Lado direito - Conteúdo e formulário */
+  #header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 0px;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 0px;
+  }
+}

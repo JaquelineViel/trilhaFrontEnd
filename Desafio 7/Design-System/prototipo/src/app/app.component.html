@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Desafio 7 - Protótipo (Design System)</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Início - logo/ menu/ sign-in -->
+        <div class="inicio">
+            <nav>
+                <div class="logo">
+                    <h3>
+                        <a href="#" style="color:purple; text-decoration: none;">
+                            <font face="verdana"><b>YOUR</b></font>
+                            <font class="logo-font" face="lucida sans">LOGO</font>
+                        </a>
+                    </h3>
+                </div>
+
+                <!-- Menu burguer -->
+                <app-menu></app-menu>
+
+                <ul class="menu">
+                    <font face="lucida sans">
+                        <li>Home</li>
+                    </font>
+
+                    <font face="lucida sans">
+                        <li>Profile</li>
+                    </font>
+
+                    <font face="lucida sans">
+                        <li>About</li>
+                    </font>
+
+                    <font face="lucida sans">
+                        <li>Contact</li>
+                    </font>
+
+                    <button mat-raised-button class="btn">Sign-In</button>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Lado esquerdo - Imagem do site -->
+
+        <div class="E">
+            <article class="imgsite">
+                <img src="https://ik.imagekit.io/zo6fhpfjl5f/imgsite_FLPZo8M9S.png?ik-sdk-version=javascript-1.4.3&updatedAt=1650484188741"
+                    alt="imagem-principal">
+            </article>
+        </div>
+
+        <!-- Lado direito - Conteúdo/ linha/ formulário/ -->
+
+        <div class="D">
+            <header id="header">
+                <h1>
+                    CONTACT US
+                </h1>
+
+                <article id="article">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Donec ac uma nisl. Maecenas quis mauris ac nisi volutpat</p>
+                    <p>tincidunt sed id orci Fusce dapibus gravida arcu.</p>
+                </article>
+            </header>
+
+            <!-- Linha horizontal -->
+            <div id="linha-horizontal"></div>
+
+            <main>
+                <app-form></app-form>
+            </main>
+        </div>
+    </div>
+
+</body>
+
+</html>

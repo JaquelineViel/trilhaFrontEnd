@@ -1,0 +1,93 @@
+/* Menu burguer */
+.btn-responsive {
+  color: white;
+  display: none;
+  background-image: linear-gradient(
+    to right,
+    rgba(231, 12, 132, 0.571),
+    rgba(128, 0, 128, 0.653)
+  );
+  box-shadow: 0.2em 0.4em 0.5em rgba(183, 76, 183, 0.61);
+  border: none;
+  border-radius: 7px;
+  width: 43px;
+  height: 40px;
+}
+
+.mat-button {
+  vertical-align: middle;
+}
+
+.material-icons {
+  font-size: 30px;
+  margin-top: -5px;
+}
+
+.mat-menu-item {
+  text-align: center;
+}
+
+/* Formatação dos itens do menu burguer */
+.home {
+  color: rgb(80, 78, 78);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 117%;
+}
+
+.profile {
+  color: rgb(80, 78, 78);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 117%;
+}
+
+.about {
+  color: rgb(80, 78, 78);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 117%;
+}
+
+.contact {
+  color: rgb(80, 78, 78);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 117%;
+}
+
+.sign-in {
+  color: purple;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 117%;
+}
+
+.mat-menu-item:nth-child(5n) {
+  opacity: 0.8;
+  background-image: linear-gradient(
+    to right,
+    rgba(231, 12, 132, 0.546),
+    rgba(128, 0, 128, 0.678)
+  );
+  box-shadow: 0.2em 0.4em 0.5em rgba(183, 76, 183, 0.61);
+  border-radius: 100px;
+  text-align: center;
+  align-items: center;
+  width: 77%;
+  margin-left: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  /* Responsivo - menu burguer */
+  .btn-responsive {
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    align-items: center;
+    transition: all 10ms ease;
+  }
+  .btn-responsive:hover {
+    transform: skew(-10deg);
+  }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<body>
+
+    <!-- Formulario -->
+    <form class="form" formGroup="form">
+        <div>
+            <label class="label-input">
+                <mat-icon class="user">person_outline</mat-icon>
+                <input type="text" placeholder="Your Name" formControlName="name" required>
+            </label>
+        </div>
+        <div *ngIf="name.invalid && name.touched" class="validation-error">
+            <p>O nome é obrigatório</p>
+        </div>
+
+        <div>
+            <label class="label-input">
+                <mat-icon class="subject">email</mat-icon>
+                <input type="subject" placeholder="Your Subject" formControlName="subject" required>
+            </label>
+            <div *ngIf="subject.invalid && subject.touched" class="validation-error">
+                <p>O subject é obrigatório</p>
+            </div>
+        </div>
+
+        <div>
+            <label class="label-input-msg">
+                <mat-icon class="message">chat_bubble_outline</mat-icon>
+                <textarea type="message" placeholder="Your Message" formControlName="message" required></textarea>
+            </label>
+            <div *ngIf="message.invalid && message.touched" class="validation-error">
+                <p>A message é obrigatória</p>
+            </div>
+
+        </div>
+
+        <div>
+            <!-- <button class="btn-form" mat-raised-button [disabled]="!form.valid" [ngClass]="{'btn-form_disabled' : !form.valid}" (click)="post()">START CHAT</button> -->
+            <button class="btn-form" mat-raised-button [ngClass]="{'btn-form_disabled' : !form.valid}"
+                (click)="post()"><b>START CHAT</b></button>
+        </div>
+    </form>
+
+</body>
+
+</html>
